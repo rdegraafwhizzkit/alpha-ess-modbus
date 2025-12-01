@@ -1,0 +1,6 @@
+type: tcp
+host: 192.168.1.75
+port: 502
+timeout: 10
+delay: 1
+slave_id: 85
