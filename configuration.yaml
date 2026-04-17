@@ -1,6 +1,7 @@
 type: tcp
-host: 192.168.1.75
+#host: 192.168.1.75
+host: 192.168.1.89
 port: 502
 timeout: 10
 delay: 1
-device_id: 85
+#device_id: 85

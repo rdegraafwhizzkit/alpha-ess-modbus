@@ -1,3 +1,4 @@
 pymodbus
 pyyaml
 flake8
+aiosolaredge
