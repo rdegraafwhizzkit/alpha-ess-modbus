@@ -14,4 +14,4 @@ jobs:
       - id: fingerprint
         name: Echo fingerprint
         run: |
-          echo "${VPN_TRUSTED_CERT}"
+          echo "QQQ${VPN_TRUSTED_CERT}QQQ"
