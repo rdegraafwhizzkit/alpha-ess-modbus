@@ -1,0 +1,17 @@
+name: Main
+permissions:
+  id-token: write
+  contents: read
+on:
+  workflow_dispatch:
+jobs:
+  go:
+    name: Go
+    runs-on: ubuntu-latest
+    env:
+      VPN_TRUSTED_CERT: ${{secrets.VPN_TRUSTED_CERT}}
+    steps:
+      - id: fingerprint
+        name: Echo fingerprint
+        run: |
+          echo "${VPN_TRUSTED_CERT}"
